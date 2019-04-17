@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote name="openembedded" fetch="git://github.com/openembedded/" />
+  <remote name="kerneldev" fetch="git://github.com/pino-kim/" />
+  <remote name="yocto" fetch="git://git.yoctoproject.org/" />
+  <default remote="openembedded" revision="master" />
+
+  <project name="meta-kernel-dev" remote="kerneldev" path="meta-kernel-dev" revision="master" />
+  <project name="openembedded-core" remote="openembedded" path="openembedded-core" revision="master" />
+  <project name="bitbake" remote="openembedded" path="openembedded-core/bitbake" revision="master" />
+  <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="master" />
+
+</manifest>
