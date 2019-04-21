@@ -62,5 +62,19 @@ cd kernel-dev-yocto
 repo sync
 repo rebase
 ```
+## Setup Build Environment
+```text
+. ./meta-kernel-dev/setup.sh
+```
 
+## Build Image
 
+A console-only minimal size image
+```text
+bitbake core-image-minimal
+```
+
+## Run in QEMU
+```text
+runqemu nographic
+```
