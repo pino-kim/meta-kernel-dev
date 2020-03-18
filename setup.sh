@@ -8,7 +8,7 @@ BITBAKEIMAGE="core-image-minimal"
 
 # clean up the output dir
 #echo "Cleaning build dir"
-rm -rf $DIR
+#rm -rf $DIR
 
 # make sure sstate is there
 #echo "Creating sstate directory"
